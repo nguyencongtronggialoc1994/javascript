@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="title">XIN CHÀO</p>
+<img id="anhcho" src="">
+<br>
+<input type="text" id="myname">
+<input type="text" id="myimg">
+<button type="button" onclick="xindungkich()">click</button>
+</body>
+<script>
+    function xindungkich() {
+        let myname = document.getElementById("myname").value;
+        let myimg = document.getElementById("myimg").value;
+        document.getElementById("title").innerHTML = "hello" + myname;
+        document.getElementById("anhcho").src = myimg
+    }
+</script>
+</html>
